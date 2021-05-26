@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" >
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a283e4476d.js" crossorigin="anonymous"></script>
+
+<title>Baassi</title>
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="images/last.png" ></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">PRODUCTS</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">APP</a></li>
+        </ul>
+
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>THE WORLD OF PANCAKES</h1>
+      <p > the best georgian company that does not exit yet <br> this is majic</p>
+      <a href="" class="hero-btn">KNOW MORE</a>
+    </div>
+
+  </section>
+  <!----- Course ----->
+  <section class="course">
+    <h1>Products that we offer</h1>
+    <p>Made with the highest quality ingredients, completely clean and healthy</p>
+
+    <div class="row">
+      <div class="course-col">
+        <img src="images/taflia.jfif" />
+        <p> SATAFLIA </p>
+        </div>
+        <div class="course-col">
+          <img src="images/taflia.jfif" />
+          <p> SATAFLIA </p>
+          </div>
+          <div class="course-col">
+            <img src="images/taflia.jfif" />
+            <p> SATAFLIA </p>
+            </div>
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+<!-----Javascript for toggle menu-->
+  <script>
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+  navLinks.style.right = "0";
+}
+function hideMenu(){
+  navLinks.style.right = "-200px";
+}
+
+
+
+  </script>
+  
+</body>
+</html>
